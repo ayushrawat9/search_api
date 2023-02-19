@@ -1,0 +1,13 @@
+{% extends 'search_form.html' %}
+
+{% block content %}
+  <div>
+    <p>HELLO WORLD</p>
+    {% for question in data.items %}
+    <div>
+        <p>{{ question }}</p>
+    </div>
+    {% endfor %}
+  </div>
+{% endblock %}
+    

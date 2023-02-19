@@ -27,7 +27,7 @@ def search_questions(request):
             results = cache_data
         else:
             # Make a request to the API
-            api_key = 'HHaNly6hbt21MCK1MS5RrA(('
+            api_key = 'api-key'
             url = f'https://api.stackexchange.com/2.3/search/advanced?key={api_key}&site=stackoverflow&q={query}&sort={sort}&order={order}&accepted={accepted}&answers={answers}&title={title}'
             response = requests.get(url)
             # response = requests.get('https://s3.us-east-2.wasabisys.com/akshit/dataset-django/ft_assignment.json')

@@ -1,1 +1,3 @@
 django-pagination
+djangorestframework
+django-cors-headers
